@@ -3,12 +3,12 @@
 	
     <h1>{{ msg }}</h1>
 	<ul>
-      <li><a href="https://wongmt.github.io/v-app/cv.html" >My CV</a></li>
+      <li><a href="https://wongmt.github.io/v-app/cv.html" >CV</a></li>
       <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
     </ul>
 	<br>
 	
-    <p> This project is under construction. For an updated version of my personal
+    <p> This site is under construction. For an updated version of my personal
 	site, please visit https://wongmt.github.io </p>
 		<p>
 		Welcome to my personal website. I am a researcher in 
