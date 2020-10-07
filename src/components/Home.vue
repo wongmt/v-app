@@ -4,11 +4,10 @@
     <h1>{{ msg }}</h1>
 	<h3>My personal site</h3>
 	<br />
-	<ul>
-      <li><a href="https://wongmt.github.io/v-app/cv.html" >CV</a></li>
-      <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
-    </ul>
-	<br>
+    <a href="https://wongmt.github.io/v-app/cv.html" >CV</a> |
+      <a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a>   
+    
+	<br /><br />
 	
     <p> This site is under construction. For an updated version of my personal
 	site, please visit https://wongmt.github.io </p>
@@ -22,25 +21,25 @@
 		This site is built by using the Vue Javascript framework, Javascript, 
 		HTML and CSS. This site is hosted by GitHub Pages.</p>
 	
-	<h3>Education</h3>
+	<h2>Education</h2>
 	<ul>
 	<li>PhD in Computer Science</li>
 	<li>M.Sc in Electronic Engineering</li>
 	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
 	</ul>
 	
-	<h3>Experience and skills</h3>
+	<h2>Experience and skills</h2>
+	<ul>
+	<li>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</li>
+	<li>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</li>
+	<li>Computer vision software libraries: OpenCV, scikit-image</li>
+	<li>Machine learning software libraries: Tensorflow, Weka</li>
+	<li>Mobile app development: Kotlin, Java, Android Studio</li>
+    </ul>
 	
-	<p>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</p>
-	<p>Web frameworks: Django, Flask, ReactJS, VueJS and CodeIgniter</p>
-	<p>Computer vision software libraries: OpenCV, scikit-image</p>
-	<p>Machine learning software libraries: Tensorflow, Weka</p>
-	<p>Mobile app development: Kotlin, Java, Android Studio</p>
-    
 	<p> This website might use cookies to improve your experience of 
 		using the site. If you continue to use this site, it will be 
 		assumed that you agree to the use of cookies.</p>
-    
   </div>
 </template>
 
@@ -55,17 +54,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 20px 0 0;
+h2 {
+  margin: 30px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
   color: #42b983;
 }
