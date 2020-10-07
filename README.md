@@ -1,4 +1,6 @@
-# myapp
+# v-app
+This project is under construction. 
+For an updated verson of my personal site, please visit https:// wongmt.github.io
 
 ## Project setup
 ```
