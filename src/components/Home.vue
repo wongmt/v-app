@@ -21,6 +21,14 @@
 		and Javascript, and mobile app development using Java and Kotlin.
 		This site is built by using the Vue Javascript framework, Javascript, 
 		HTML and CSS. This site is hosted by GitHub Pages.</p>
+	
+	<h3>Education</h3>
+	<ul>
+	<li>PhD in Computer Science</li>
+	<li>M.Sc in Electronic Engineering</li>
+	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
+	</ul>
+	
 	<h3>Experience and skills</h3>
 	
 	<p>Programming languages: Python, Javascript, C++, Java, Kotlin, PHP</p>
