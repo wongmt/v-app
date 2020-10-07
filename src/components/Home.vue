@@ -1,7 +1,9 @@
 <template>
-  <div class="hello">
+  <div class="home">
 	
     <h1>{{ msg }}</h1>
+	<h3>My personal site</h3>
+	<br />
 	<ul>
       <li><a href="https://wongmt.github.io/v-app/cv.html" >CV</a></li>
       <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
@@ -36,7 +38,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   props: {
     msg: String
   }
@@ -46,7 +48,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
-  margin: 40px 0 0;
+  margin: 20px 0 0;
 }
 ul {
   list-style-type: none;
