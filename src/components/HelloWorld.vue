@@ -1,6 +1,13 @@
 <template>
   <div class="hello">
+	
     <h1>{{ msg }}</h1>
+	<ul>
+      <li><a href="https://wongmt.github.io/v-app/cv.html" >My CV</a></li>
+      <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
+    </ul>
+	<br>
+	
     <p> This project is under construction. For an updated version of my personal
 	site, please visit https://wongmt.github.io </p>
 		<p>
@@ -20,12 +27,6 @@
 	<p>Machine learning software libraries: Tensorflow, Weka</p>
 	<p>Mobile app development: Kotlin, Java, Android Studio</p>
     
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://wongmt.github.io/v-app/cv.html" >My CV</a></li>
-      <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
-    </ul>
-	<br>
 	<p> This website might use cookies to improve your experience of 
 		using the site. If you continue to use this site, it will be 
 		assumed that you agree to the use of cookies.</p>
