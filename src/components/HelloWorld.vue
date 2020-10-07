@@ -22,8 +22,8 @@
     
     <h3>Essential Links</h3>
     <ul>
-      <li><a href="https://wongmt.github.io/myapp/cv.html" >My CV</a></li>
-      <li><a href="https://wongmt.github.io/myapp/privacy.html" >Privacy policy</a></li>    
+      <li><a href="https://wongmt.github.io/v-app/cv.html" >My CV</a></li>
+      <li><a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a></li>    
     </ul>
 	<br>
 	<p> This website might use cookies to improve your experience of 
