@@ -1,5 +1,5 @@
 # v-app
-This is my personal site developed by VueJS, JavaScript, CSS and HTML.
+This is my personal site.
 This project is under construction. 
 For an updated verson of my personal site, please visit https:// wongmt.github.io
 
