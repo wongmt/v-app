@@ -1,7 +1,6 @@
 # v-app
-This is my personal site.
 This project is under construction. 
-For an updated verson of my personal site, please visit https:// wongmt.github.io
+This project is developed with VueJS, JavaScript, HTML and CSS.
 
 ## Project setup
 ```
