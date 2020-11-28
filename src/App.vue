@@ -1,6 +1,6 @@
 <template>
   <div id="app">    
-    <Home msg="M. Wong"/>
+    <Home />	
   </div>
 </template>
 
@@ -11,7 +11,8 @@ export default {
   name: 'App',
   components: {
     Home
-  }
+  },
+  
 }
 </script>
 

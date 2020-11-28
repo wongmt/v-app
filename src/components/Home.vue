@@ -1,20 +1,17 @@
 <template>
   <div class="home">
 	
-    <h1>{{ msg }}</h1>
+    <h1>M Wong</h1>
 	<h3>My personal site</h3>
 	<br />
     <a href="https://wongmt.github.io/v-app/cv.html" >CV</a> |
-      <a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a>   
+    <a href="https://wongmt.github.io/v-app/privacy.html" >Privacy policy</a>   
     
 	<br /><br />
-	
-    <p> This site is under construction. For an updated version of my personal
-	site, please visit https://wongmt.github.io </p>
 		<p>
 		Welcome to my personal website. I am a researcher in 
 		computer vision and machine learning with Ph.D in 
-		Computing, M.Sc & B.Sc(Hons.) in Electronic Engineering. 
+		Computer Science, M.Sc & B.Sc(Hons.) in Electronic Engineering. 
 		I have experience in Python, Java, C++, PHP, Javascript and Kotlin.
 		I also have strong interest in web app development using Python 
 		and Javascript, and mobile app development using Java and Kotlin.
@@ -37,19 +34,45 @@
 	<li>Mobile app development: Kotlin, Java, Android Studio</li>
     </ul>
 	
-	<p> This website might use cookies to improve your experience of 
-		using the site. If you continue to use this site, it will be 
-		assumed that you agree to the use of cookies.</p>
+	<div id="notice">
+	<!--<p> <span v-if="seen">{{msg}}</span>-->
+		<!--<button v-on:click="agree">Agree</button></p>-->
+	</div>
+		
   </div>
 </template>
 
 <script>
+//let check=document.cookie.indexOf('myagreebutton1');
+//if (check != -1) {
+  //document.getElementById('notice').style.display="none"; 
+  //seen= false;
+//} 
 export default {
   name: 'Home',
-  props: {
-    msg: String
+
+methods: {
+    agree() {
+      document.getElementById('notice').style.visibility="hidden";
+      document.cookie = "myagreebutton1=agree";
+    },
+    check() {
+	var check=document.cookie.indexOf('myagreebutton1');
+    if (check != -1) {
+     document.getElementById('notice').style.visibility="hidden";  
+    } 
+	}
+  },
+  
+  data() {
+  return {
+    msg: "cookie is used",
+    seen: true,
   }
 }
+	
+}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -61,4 +84,8 @@ h2 {
 a {
   color: #42b983;
 }
+
+#notice {
+	visibility: "";
+}	
 </style>
